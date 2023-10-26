@@ -14,8 +14,4 @@ use App\Livewire\GameCode;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/enter-game-code', GameCode::class);
+Route::get('/', GameCode::class);
