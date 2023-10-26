@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Livewire\GameCode;
+use App\Livewire\Welcome;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,3 +16,4 @@ use App\Livewire\GameCode;
 */
 
 Route::get('/', GameCode::class);
+Route::get('/welcome', Welcome::class);

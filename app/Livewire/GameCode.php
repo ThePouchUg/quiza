@@ -8,7 +8,7 @@ class GameCode extends Component
 {
     public function enterQuiz()
     {
-        return view('<h1>hhh</h1>');
+        return $this->redirect('/welcome', navigate: true);
     }
 
     public function render()
