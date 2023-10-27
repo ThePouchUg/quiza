@@ -1,6 +1,6 @@
 <div class="flex flex-col h-screen items-center justify-center border-4 ">
     <h1 class="text-3xl font-bold">The Pub Quiz</h1>
-    <h2 class="text-2xl">Enter quiz code</h2>
+    <h2 class="text-2xl">Enter code</h2>
     <div class="flex flex-col justify-center items-center space-y-4">
         <div class="flex flex-col justify-center items-center">
             <label for="quiz-code" class="block mb-2 text-sm font-medium text-gray-900 sr-only">Quiz
