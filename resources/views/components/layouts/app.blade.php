@@ -4,9 +4,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{{ $title ?? 'Page Title' }}</title>
+        @vite('resources/css/app.css')
     </head>
     <body>
         {{ $slot }}
-        <script src="https://cdn.tailwindcss.com"></script>
     </body>
 </html>
