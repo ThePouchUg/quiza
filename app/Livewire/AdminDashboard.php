@@ -12,6 +12,12 @@ class AdminDashboard extends Component
         return $this->redirect('/admin', navigate: true);
     }
 
+    public function createQuiz() 
+    {
+        return $this->redirect('/admin/create-quiz', navigate: true);
+    }
+
+
     public function render()
     {
         return view('livewire.admin-dashboard');

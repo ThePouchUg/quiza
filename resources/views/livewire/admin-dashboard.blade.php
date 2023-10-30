@@ -8,7 +8,7 @@
                 placeholder="EF002255" required>
         </div>
         <button type="button"
-            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full" wire:click="adminLogin">Enter</button>
+            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full" wire:click="createQuiz">Create Quiz</button>
 
     </div>
 </div>

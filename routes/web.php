@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Livewire\GameCode;
 use App\Livewire\Welcome;
 use App\Livewire\AdminDashboard;
+use App\Livewire\CreateQuiz;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +20,4 @@ use App\Livewire\AdminDashboard;
 Route::get('/', GameCode::class);
 Route::get('/welcome', Welcome::class);
 Route::get('/admin', AdminDashboard::class);
+Route::get('/admin/create-quiz', CreateQuiz::class);    
