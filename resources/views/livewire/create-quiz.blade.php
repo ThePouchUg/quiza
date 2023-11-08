@@ -1,15 +1,12 @@
-<div>
+<div class="flex flex-col">
     <livewire:nav-bar />
 
-    <form action="" method="post">
-        <input type="button" value="submit">
-    </form>
-    {{-- The Master doesn't talk, he acts. --}}
+    <div class="flex flex-col mt-4 mx-auto px-6 gap-y-2">
+        <button type="button mt-2" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+            wire:click="createQuiz">Add Categories</button>
 
-    {{-- The Master doesn't talk, he acts. --}}
-
-    {{-- The Master doesn't talk, he acts. --}}
-
-    {{-- The Master doesn't talk, he acts. --}}
+        <button type="button mt-2" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+            wire:click="createQuiz">Select Questions</button>
+    </div>
 
 </div>
