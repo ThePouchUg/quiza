@@ -1,4 +1,5 @@
 <div>
+    <livewire:nav-bar />
     <div class="flex flex-col justify-center items-center space-y-4">
         <div class="flex flex-col justify-center items-center">
             <label for="quiz-code" class="block mb-2 text-sm font-medium text-gray-900 sr-only">Quiz
