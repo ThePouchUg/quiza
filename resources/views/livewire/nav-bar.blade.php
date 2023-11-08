@@ -1,5 +1,5 @@
 <header class="flex items-center justify-between px-4 py-3 bg-gray-900">
-    <div class="text-white">QZ</div>
+    <div class="text-white text-2xl pl-2">QZ</div>
     <div>
         <button type="button" class="block text-gray-500 hover:text-white focus:text-white focus:outline-none">
             <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
