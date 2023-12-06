@@ -10,4 +10,9 @@ class CreateQuiz extends Component
     {
         return view('livewire.create-quiz');
     }
+
+    public function addCategory() 
+    {
+        return $this->redirect('/admin/create-quiz/add-category', navigate: true);
+    }
 }

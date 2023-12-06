@@ -5,6 +5,7 @@ use App\Livewire\GameCode;
 use App\Livewire\Welcome;
 use App\Livewire\AdminDashboard;
 use App\Livewire\CreateQuiz;
+use App\Livewire\AddCategory;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,4 +21,5 @@ use App\Livewire\CreateQuiz;
 Route::get('/', GameCode::class);
 Route::get('/welcome', Welcome::class);
 Route::get('/admin', AdminDashboard::class);
-Route::get('/admin/create-quiz', CreateQuiz::class);    
+Route::get('/admin/create-quiz', CreateQuiz::class);
+Route::get('/admin/create-quiz/add-category', AddCategory::class);    
